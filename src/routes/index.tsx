@@ -910,7 +910,7 @@ function Footer() {
 
       <div className="hairline mx-auto mt-10 max-w-7xl" />
       <p className="mx-auto mt-6 max-w-7xl px-5 text-center text-xs text-white/50 md:px-8">
-        © {new Date().getFullYear()} JJ Eletrônicos Litoral. Todos os direitos reservados.
+        © {new Date().getFullYear()} JJ Eletrônicos Litoral. Todos os direitos reservados. <br /> Desenvolvido por <a href="https://vexxa.com.br">Vexxa Desenvolvimento</a>
       </p>
     </footer>
   );
