@@ -87,15 +87,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "theme-color", content: "#050505" },
       { property: "og:title", content: "JJ Eletrônicos Litoral | iPhones, Trocas e Assistência" },
       {
+        property: "og:title",
+        content: "JJ Eletrônicos Litoral | iPhones, Trocas e Assistência",
+      },
+      {
         property: "og:description",
-        content: "https://jj-litoral-glow.vercel.app/public/favicon.ico"
+        content:
           "Aparelhos lacrados, seminovos premium e assistência técnica especializada no Litoral Norte.",
+      },
+      {
+        property: "og:image",
+        content: "https://jj-litoral-glow.vercel.app/apple-touch-icon.png",
+      },
+      {
+        property: "og:type",
+        content: "website",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "icon", type: "image/ico", href: "/favicon.ico" },
       { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
 
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
